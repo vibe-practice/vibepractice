@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:ui.shadcn.com)",
+      "Bash(npx create-next-app@15:*)",
+      "Bash(npx shadcn@canary init:*)",
+      "Bash(npx shadcn@canary add button card input label separator sheet avatar dropdown-menu navigation-menu -y)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
