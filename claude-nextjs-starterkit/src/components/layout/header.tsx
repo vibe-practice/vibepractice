@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/layout/mobile-nav";
+import { ThemeToggle } from "@/components/theme/theme-toggle";
 
 // 네비게이션 링크 목록
 const navLinks = [
@@ -43,6 +44,7 @@ export function Header() {
 
         {/* 데스크톱 CTA 버튼 */}
         <div className="hidden md:flex items-center gap-2">
+          <ThemeToggle />
           <Button variant="ghost" size="sm">
             로그인
           </Button>

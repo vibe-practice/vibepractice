@@ -47,7 +47,7 @@ export default function Home() {
       {/* Hero 섹션 */}
       <section className="container mx-auto px-4 py-20 md:py-28 lg:py-36">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight leading-[140%] sm:text-5xl lg:text-6xl">
             웹 개발을
             <br />
             <span className="text-primary">빠르게 시작하세요</span>

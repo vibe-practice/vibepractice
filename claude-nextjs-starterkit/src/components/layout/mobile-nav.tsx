@@ -10,8 +10,10 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { ThemeToggleMobile } from "@/components/theme/theme-toggle-mobile";
 
 // 네비게이션 링크 목록
 const navLinks = [
@@ -55,6 +57,8 @@ export function MobileNav() {
             </Link>
           ))}
         </nav>
+        <Separator className="my-4" />
+        <ThemeToggleMobile />
       </SheetContent>
     </Sheet>
   );
